@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAC80F381C838DE200C130A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC80F371C838DE200C130A9 /* AppDelegate.swift */; };
+		EAC80F3A1C838DE200C130A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC80F391C838DE200C130A9 /* ViewController.swift */; };
+		EAC80F3D1C838DE200C130A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC80F3B1C838DE200C130A9 /* Main.storyboard */; };
+		EAC80F3F1C838DE200C130A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC80F3E1C838DE200C130A9 /* Assets.xcassets */; };
+		EAC80F421C838DE200C130A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC80F401C838DE200C130A9 /* LaunchScreen.storyboard */; };
+		EAC80F4D1C838DE200C130A9 /* testViewApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC80F4C1C838DE200C130A9 /* testViewApplicationTests.swift */; };
+		EAC80F581C838DE200C130A9 /* testViewApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC80F571C838DE200C130A9 /* testViewApplicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAC80F491C838DE200C130A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAC80F2C1C838DE100C130A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC80F331C838DE100C130A9;
+			remoteInfo = testViewApplication;
+		};
+		EAC80F541C838DE200C130A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAC80F2C1C838DE100C130A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC80F331C838DE100C130A9;
+			remoteInfo = testViewApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAC80F341C838DE100C130A9 /* testViewApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testViewApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC80F371C838DE200C130A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAC80F391C838DE200C130A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAC80F3C1C838DE200C130A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAC80F3E1C838DE200C130A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAC80F411C838DE200C130A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAC80F431C838DE200C130A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC80F481C838DE200C130A9 /* testViewApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testViewApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC80F4C1C838DE200C130A9 /* testViewApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewApplicationTests.swift; sourceTree = "<group>"; };
+		EAC80F4E1C838DE200C130A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC80F531C838DE200C130A9 /* testViewApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testViewApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC80F571C838DE200C130A9 /* testViewApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewApplicationUITests.swift; sourceTree = "<group>"; };
+		EAC80F591C838DE200C130A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAC80F311C838DE100C130A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC80F451C838DE200C130A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC80F501C838DE200C130A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAC80F2B1C838DE100C130A9 = {
+			isa = PBXGroup;
+			children = (
+				EAC80F361C838DE100C130A9 /* testViewApplication */,
+				EAC80F4B1C838DE200C130A9 /* testViewApplicationTests */,
+				EAC80F561C838DE200C130A9 /* testViewApplicationUITests */,
+				EAC80F351C838DE100C130A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAC80F351C838DE100C130A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAC80F341C838DE100C130A9 /* testViewApplication.app */,
+				EAC80F481C838DE200C130A9 /* testViewApplicationTests.xctest */,
+				EAC80F531C838DE200C130A9 /* testViewApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAC80F361C838DE100C130A9 /* testViewApplication */ = {
+			isa = PBXGroup;
+			children = (
+				EAC80F371C838DE200C130A9 /* AppDelegate.swift */,
+				EAC80F391C838DE200C130A9 /* ViewController.swift */,
+				EAC80F3B1C838DE200C130A9 /* Main.storyboard */,
+				EAC80F3E1C838DE200C130A9 /* Assets.xcassets */,
+				EAC80F401C838DE200C130A9 /* LaunchScreen.storyboard */,
+				EAC80F431C838DE200C130A9 /* Info.plist */,
+			);
+			path = testViewApplication;
+			sourceTree = "<group>";
+		};
+		EAC80F4B1C838DE200C130A9 /* testViewApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAC80F4C1C838DE200C130A9 /* testViewApplicationTests.swift */,
+				EAC80F4E1C838DE200C130A9 /* Info.plist */,
+			);
+			path = testViewApplicationTests;
+			sourceTree = "<group>";
+		};
+		EAC80F561C838DE200C130A9 /* testViewApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAC80F571C838DE200C130A9 /* testViewApplicationUITests.swift */,
+				EAC80F591C838DE200C130A9 /* Info.plist */,
+			);
+			path = testViewApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAC80F331C838DE100C130A9 /* testViewApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC80F5C1C838DE200C130A9 /* Build configuration list for PBXNativeTarget "testViewApplication" */;
+			buildPhases = (
+				EAC80F301C838DE100C130A9 /* Sources */,
+				EAC80F311C838DE100C130A9 /* Frameworks */,
+				EAC80F321C838DE100C130A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testViewApplication;
+			productName = testViewApplication;
+			productReference = EAC80F341C838DE100C130A9 /* testViewApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAC80F471C838DE200C130A9 /* testViewApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC80F5F1C838DE200C130A9 /* Build configuration list for PBXNativeTarget "testViewApplicationTests" */;
+			buildPhases = (
+				EAC80F441C838DE200C130A9 /* Sources */,
+				EAC80F451C838DE200C130A9 /* Frameworks */,
+				EAC80F461C838DE200C130A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC80F4A1C838DE200C130A9 /* PBXTargetDependency */,
+			);
+			name = testViewApplicationTests;
+			productName = testViewApplicationTests;
+			productReference = EAC80F481C838DE200C130A9 /* testViewApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAC80F521C838DE200C130A9 /* testViewApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC80F621C838DE200C130A9 /* Build configuration list for PBXNativeTarget "testViewApplicationUITests" */;
+			buildPhases = (
+				EAC80F4F1C838DE200C130A9 /* Sources */,
+				EAC80F501C838DE200C130A9 /* Frameworks */,
+				EAC80F511C838DE200C130A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC80F551C838DE200C130A9 /* PBXTargetDependency */,
+			);
+			name = testViewApplicationUITests;
+			productName = testViewApplicationUITests;
+			productReference = EAC80F531C838DE200C130A9 /* testViewApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAC80F2C1C838DE100C130A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Yount";
+				TargetAttributes = {
+					EAC80F331C838DE100C130A9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EAC80F471C838DE200C130A9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EAC80F331C838DE100C130A9;
+					};
+					EAC80F521C838DE200C130A9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EAC80F331C838DE100C130A9;
+					};
+				};
+			};
+			buildConfigurationList = EAC80F2F1C838DE100C130A9 /* Build configuration list for PBXProject "testViewApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAC80F2B1C838DE100C130A9;
+			productRefGroup = EAC80F351C838DE100C130A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAC80F331C838DE100C130A9 /* testViewApplication */,
+				EAC80F471C838DE200C130A9 /* testViewApplicationTests */,
+				EAC80F521C838DE200C130A9 /* testViewApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAC80F321C838DE100C130A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC80F421C838DE200C130A9 /* LaunchScreen.storyboard in Resources */,
+				EAC80F3F1C838DE200C130A9 /* Assets.xcassets in Resources */,
+				EAC80F3D1C838DE200C130A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC80F461C838DE200C130A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC80F511C838DE200C130A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAC80F301C838DE100C130A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC80F3A1C838DE200C130A9 /* ViewController.swift in Sources */,
+				EAC80F381C838DE200C130A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC80F441C838DE200C130A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC80F4D1C838DE200C130A9 /* testViewApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC80F4F1C838DE200C130A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC80F581C838DE200C130A9 /* testViewApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAC80F4A1C838DE200C130A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC80F331C838DE100C130A9 /* testViewApplication */;
+			targetProxy = EAC80F491C838DE200C130A9 /* PBXContainerItemProxy */;
+		};
+		EAC80F551C838DE200C130A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC80F331C838DE100C130A9 /* testViewApplication */;
+			targetProxy = EAC80F541C838DE200C130A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAC80F3B1C838DE200C130A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC80F3C1C838DE200C130A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAC80F401C838DE200C130A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC80F411C838DE200C130A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAC80F5A1C838DE200C130A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAC80F5B1C838DE200C130A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAC80F5D1C838DE200C130A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testViewApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.testViewApplication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAC80F5E1C838DE200C130A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testViewApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.testViewApplication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAC80F601C838DE200C130A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testViewApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.testViewApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testViewApplication.app/testViewApplication";
+			};
+			name = Debug;
+		};
+		EAC80F611C838DE200C130A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testViewApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.testViewApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testViewApplication.app/testViewApplication";
+			};
+			name = Release;
+		};
+		EAC80F631C838DE200C130A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testViewApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.testViewApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testViewApplication;
+			};
+			name = Debug;
+		};
+		EAC80F641C838DE200C130A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testViewApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.testViewApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testViewApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAC80F2F1C838DE100C130A9 /* Build configuration list for PBXProject "testViewApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC80F5A1C838DE200C130A9 /* Debug */,
+				EAC80F5B1C838DE200C130A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC80F5C1C838DE200C130A9 /* Build configuration list for PBXNativeTarget "testViewApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC80F5D1C838DE200C130A9 /* Debug */,
+				EAC80F5E1C838DE200C130A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAC80F5F1C838DE200C130A9 /* Build configuration list for PBXNativeTarget "testViewApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC80F601C838DE200C130A9 /* Debug */,
+				EAC80F611C838DE200C130A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAC80F621C838DE200C130A9 /* Build configuration list for PBXNativeTarget "testViewApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC80F631C838DE200C130A9 /* Debug */,
+				EAC80F641C838DE200C130A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAC80F2C1C838DE100C130A9 /* Project object */;
+}
